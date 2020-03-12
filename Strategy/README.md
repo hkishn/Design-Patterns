@@ -15,10 +15,10 @@ b) Fewer unintended consequences from code changes anf more flexibility in your 
 
 # Installation
 Clone the GitHub repository and compile the source code<br/>
-git clone https://github.com/hkishn/Design-Patterns/tree/master/Strategy<br/>
-cd Strategy<br/>
-g++ -o strategy Strategy.cpp<br/>
-./Strategy<br/>
+$git clone https://github.com/hkishn/Design-Patterns/tree/master/Strategy<br/>
+$cd Strategy<br/>
+$g++ -o strategy Strategy.cpp<br/>
+$./strategy<br/>
 
 # License
 The source code is distributed under the MIT license
