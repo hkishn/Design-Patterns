@@ -4,8 +4,7 @@ A design pattern systematically names, motivates, and explains a general design 
 It describes the problem, the solution, when to apply the solution, and its consequences
 
 ## Installation 
-$ git clone https://github.com/hkishn/Design-Patterns
-cd Design-Patterns
+$ git clone https://github.com/hkishn/Design-Patterns <br/>
+$ cd Design-Patterns
 
 ### Go to subfolder for specific design pattern
-cd Strategy
