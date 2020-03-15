@@ -6,5 +6,6 @@ It describes the problem, the solution, when to apply the solution, and its cons
 ## Installation 
 $ git clone https://github.com/hkishn/Design-Patterns
 cd Design-Patterns
+
 ### Go to subfolder for specific design pattern
 cd Strategy
