@@ -16,10 +16,10 @@ the interdependency between objects.
 6. Changes to either the subject or an observer will not affect the other
 
 ## Installation
-Clone the GitHub repository and compile the source code
-$git clone https://github.com/hkishn/Design-Patterns
-$cd Observer
-$g++ -o observer Observer.cpp
-$./observer
+Clone the GitHub repository and compile the source code<br />
+$git clone https://github.com/hkishn/Design-Patterns<br /?
+$cd Observer<br />
+$g++ -o observer Observer.cpp<br />
+$./observer<br />
 
 
