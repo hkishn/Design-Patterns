@@ -10,18 +10,15 @@
  * implement the fly method.
  */
 class FlyBehavior
-//-------------------------------------------------------------------------------
 {
 	public:
 		virtual void fly() = 0;
 };
-//-------------------------------------------------------------------------------
 
 /**
  * Implementation of flying for all ducks that have wings 
  */
 class FlyWithWings: public FlyBehavior
-//-------------------------------------------------------------------------------
 {
 	public:
 		void fly()
@@ -29,13 +26,12 @@ class FlyWithWings: public FlyBehavior
 			std::cout<<"\n Flying"<<std::endl;
 		}
 };
-//-------------------------------------------------------------------------------
+
 
 /**
  * Implementation of all ducks that can't fly
  */
 class FlyNoWay: public FlyBehavior
-//-------------------------------------------------------------------------------
 {
 	public:
 		void fly()
@@ -43,13 +39,11 @@ class FlyNoWay: public FlyBehavior
 			std::cout<<"\n Do nothing. Can't fly"<<std::endl;
 		}
 };
-//-------------------------------------------------------------------------------
 
 /**
  * Implementation of all ducks that can fly with rocket power
  */
 class FlyRocketPowered: public FlyBehavior
-//-------------------------------------------------------------------------------
 {
 	public:
 		void fly()
@@ -57,7 +51,7 @@ class FlyRocketPowered: public FlyBehavior
 			std::cout<<"\n I am flying with a rocket!"<<std::endl;
 		}
 };
-//-------------------------------------------------------------------------------
+
 
 /**
  * QuackBehavior is an interface that \
@@ -66,18 +60,16 @@ class FlyRocketPowered: public FlyBehavior
  * implement the quack method.
  */
 class QuackBehavior
-//-------------------------------------------------------------------------------
 {
 	public:
 		virtual void quack() = 0;
 };
-//-------------------------------------------------------------------------------
+
 
 /**
  * Implementation of all ducks that quack
  */
 class Quack: public QuackBehavior
-//-------------------------------------------------------------------------------
 {
 	public:
 		void quack()
@@ -85,13 +77,12 @@ class Quack: public QuackBehavior
 			std::cout<<"\n Quacking"<<std::endl;
 		}
 };
-//-------------------------------------------------------------------------------
+
 
 /**
  * Implementation of all ducks that squeak 
  */
 class Squeak: public QuackBehavior
-//-------------------------------------------------------------------------------
 {
 	public:
 		void quack()
@@ -99,13 +90,12 @@ class Squeak: public QuackBehavior
 			std::cout<<"\n Queak"<<std::endl;
 		}
 };
-//-------------------------------------------------------------------------------
+
 
 /**
  * Implementation of all ducks that make no sound at all
  */
 class MuteQuack: public QuackBehavior
-//-------------------------------------------------------------------------------
 {
 	public:
 		void quack()
@@ -113,7 +103,7 @@ class MuteQuack: public QuackBehavior
 			std::cout<<"\n Do nothing."<<std::endl;
 		}
 };
-//-------------------------------------------------------------------------------
+
 
 
 /**
@@ -121,7 +111,6 @@ class MuteQuack: public QuackBehavior
  */
 
 class Duck
-//-------------------------------------------------------------------------------
 {
 	public:
 		QuackBehavior *quackBehavior; /*!< Each duck has a reference to somthing that implements the QuackBehavior interface */
@@ -160,10 +149,9 @@ class Duck
 		}
 
 };
-//-------------------------------------------------------------------------------
+
 
 class MallardDuck: public Duck
-//-------------------------------------------------------------------------------
 {
 	public:
 		MallardDuck()
@@ -193,13 +181,12 @@ class MallardDuck: public Duck
 		}
 
 };
-//-------------------------------------------------------------------------------
+
 
 /**
  * class to simulate dynamic behavior of the TestDuck behavior
  */
 class TestDuck: public Duck
-//-------------------------------------------------------------------------------
 {
 	public:
 		TestDuck()
@@ -228,7 +215,7 @@ class TestDuck: public Duck
 		}
 
 };
-//-------------------------------------------------------------------------------
+
 
 /**
  * Simulation code 
