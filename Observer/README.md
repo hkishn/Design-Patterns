@@ -15,4 +15,11 @@ the interdependency between objects.
 5. We can reuse subjects or observers independently of each other.
 6. Changes to either the subject or an observer will not affect the other
 
+## Installation
+Clone the GitHub repository and compile the source code
+$git clone https://github.com/hkishn/Design-Patterns
+$cd Observer
+$g++ -o observer Observer.cpp
+$./observer
+
 
