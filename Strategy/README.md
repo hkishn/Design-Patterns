@@ -20,5 +20,3 @@ $cd Strategy<br/>
 $g++ -o strategy Strategy.cpp<br/>
 $./strategy<br/>
 
-# License
-The source code is distributed under the MIT license
