@@ -17,7 +17,7 @@ the interdependency between objects.
 
 ## Installation
 Clone the GitHub repository and compile the source code<br />
-$git clone https://github.com/hkishn/Design-Patterns<br /?
+$git clone https://github.com/hkishn/Design-Patterns<br />
 $cd Observer<br />
 $g++ -o observer Observer.cpp<br />
 $./observer<br />
