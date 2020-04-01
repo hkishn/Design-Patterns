@@ -137,3 +137,6 @@ int main() {
     weatherData->SetMeasurements(80,65, 30);
     return 0;
 }
+
+## Output
+ Current temperature is 80  at humidiity level 65 pressure is 30
