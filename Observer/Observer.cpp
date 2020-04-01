@@ -135,6 +135,7 @@ int main() {
     WeatherData *weatherData = new WeatherData;
     CurrentConditionsDisplay *currentConditionsDisplay = new CurrentConditionsDisplay(weatherData);
     weatherData->SetMeasurements(80,65, 30);
+    delete weatherData;
     return 0;
 }
 
